@@ -1,0 +1,112 @@
+@font-face {
+  font-family: Leaguemono;
+  src: url(https://cdn.prod.website-files.com/61ef1b5a4a93b121c1063e2c/61fc570502addd52e94cab01_LeagueMono-Regular.woff2) format("woff2"),
+    url(https://cdn.prod.website-files.com/61ef1b5a4a93b121c1063e2c/61fc56ff189abfc55b72c724_LeagueMono-Regular.woff) format("woff"),
+    url(https://cdn.prod.website-files.com/61ef1b5a4a93b121c1063e2c/61fc571107b1f54757cadf00_LeagueMono-Regular.otf) format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  font-family: neue-haas-grotesk-text, sans-serif;
+}
+
+body .hsfc-TextInput {
+  width: 100% !important;
+  border: 1px solid #ced3e0;
+  border-radius: 4px;
+  width: 100%;
+  height: 48px;
+  padding: 0 18px 0 18px;
+  transition: border 0.4s ease;
+  background: unset;
+}
+
+body .hsfc-TextInput,
+body .hsfc-TextInput:hover,
+body .hsfc-TextInput:focus {
+  box-shadow: unset;
+}
+
+body .hsfc-DropdownOptions,
+body .hsfc-DropdownOptions__List__ListItem {
+  background: white;
+}
+
+body .hsfc-DropdownOptions {
+  border: 1px solid #ced3e0;
+}
+
+body .hsfc-FieldLabel {
+  margin-bottom: 0.2em;
+  font-weight: 400;
+  font-size: 14px;
+  color: #000000 !important;
+}
+
+body .hsfc-Button {
+  width: 100%;
+  height: 58px;
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: auto;
+  background: #e84a5e !important;
+  border: none;
+  font-family: Leaguemono;
+  color: white;
+  font-size: 0.875rem;
+  line-height: 1;
+  font-weight: 400;
+  text-transform: uppercase;
+  cursor: pointer;
+  transform: unset !important;
+}
+
+body .hsfc-NavigationRow__Buttons {
+  position: relative;
+}
+
+body .hsfc-NavigationRow__Buttons::before {
+  content: "" !important;
+  width: 164px !important;
+  height: 9px !important;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+  bottom: auto;
+  background-image: url("data:image/svg+xml,%3Csvg width='164' height='9' viewBox='0 0 164 9' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8.14835 4.61662L2.63739 7.83895L2.08981 6.98949L6.49857 3.99883L2.08981 1.00817L2.63739 0.158714L8.14835 3.38104V4.61662Z' fill='white' fill-opacity='0.5'/%3E%3Cpath d='M22.3289 4.61662L16.8179 7.83895L16.2703 6.98949L20.6791 3.99883L16.2703 1.00817L16.8179 0.158714L22.3289 3.38104V4.61662Z' fill='white'/%3E%3Cpath d='M140.312 4.61662V3.38104L145.823 0.158714L146.37 1.00817L141.962 3.99883L146.37 6.98949L145.823 7.83895L140.312 4.61662Z' fill='white'/%3E%3Cpath d='M154.492 4.61662V3.38104L160.003 0.158714L160.551 1.00817L156.142 3.99883L160.551 6.98949L160.003 7.83895L154.492 4.61662Z' fill='white' fill-opacity='0.5'/%3E%3C/svg%3E%0A");
+  pointer-events: none;
+}
+
+body .hsfc-TextInput[type="checkbox"],
+body .hsfc-TextInput[type="radio"] {
+  cursor: pointer;
+  width: auto !important;
+  height: auto !important;
+  padding: 0;
+  margin: 4px 5px 3px 0px;
+  line-height: normal;
+  border: none;
+}
+
+body .hsfc-Row {
+  gap: 0.5em;
+  margin-bottom: 1.375em;
+}
+
+body .hsfc-RichText p {
+  margin: unset;
+  line-height: 1.5;
+}
+
+body .hsfc-RichText p * {
+  font-size: 16px !important;
+  color: #000000 !important;
+  background: unset !important;
+}
+
+body .hsfc-RichText p a {
+  text-decoration: unset !important;
+}
